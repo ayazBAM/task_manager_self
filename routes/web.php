@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/create-task', function () {
     return view('create_task');
 });
+
+Route::get('/view-task', function () {
+    return view('view');
+});
